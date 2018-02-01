@@ -5,4 +5,8 @@ class listen
   def initialize(word)
     @word = word
   end
+
+  def self.match
+
+  end
 end
