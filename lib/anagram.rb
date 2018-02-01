@@ -7,6 +7,6 @@ class listen
   end
 
   def self.match(some_word)
-    some_word.select { |letters| letters.split("").sort == name.split("").sort  }
+    some_word.select { |letters| letters.split("").sort == @word.split("").sort  }
   end
 end
