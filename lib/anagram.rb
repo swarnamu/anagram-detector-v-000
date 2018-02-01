@@ -6,7 +6,7 @@ class listen
     @word = word
   end
 
-  def self.match
-
+  def self.match(word)
+    
   end
 end
