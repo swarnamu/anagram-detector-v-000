@@ -6,7 +6,7 @@ class listen
     @word = word
   end
 
-  def self.match(word)
-    
+  def self.match(some_word)
+    some_word.select { |letters| letters.split("").sort == name.split("").sort  }
   end
 end
